@@ -1,0 +1,14 @@
+{
+  "name": "nvna-docker-microservice",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "First Last <first.last@example.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "nodemon": "^2.0.19"
+  }
+}
