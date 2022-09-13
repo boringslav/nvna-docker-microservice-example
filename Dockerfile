@@ -14,4 +14,4 @@ COPY . .
 EXPOSE 8080
 
 # Run the application
-CMD ["nodemon", "index.js"]
+CMD ["node", "index.js"]
